@@ -10,7 +10,7 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 
 # ЖЕЛЕЗНО ВШИТЫЕ ТВОИ ЛИЧНЫЕ ДАННЫЕ
-TOKEN = "8992868971:AAGkBctaG3j3V9CYdwChdAngITwAnd6yEnM"
+TOKEN = "TELEGRAM TOKEN UOOO"
 MY_CLOUDFLARE_URL = "https://nameless-frog-31c6.pazan4ok.workers.dev"
 
 my_private_server = TelegramAPIServer.from_base(MY_CLOUDFLARE_URL)
