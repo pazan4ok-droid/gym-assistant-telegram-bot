@@ -9,7 +9,6 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 
-# ЖЕЛЕЗНО ВШИТЫЕ ТВОИ ЛИЧНЫЕ ДАННЫЕ
 TOKEN = "TELEGRAM TOKEN UOOO"
 MY_CLOUDFLARE_URL = "https://nameless-frog-31c6.pazan4ok.workers.dev"
 
@@ -19,10 +18,8 @@ session = AiohttpSession(api=my_private_server)
 bot = Bot(token=TOKEN, session=session)
 dp = Dispatcher()
 
-# Имя файла для нашей локальной базы данных
 DB_FILE = "users_db.json"
 
-# Функции для работы с базой данных (JSON)
 def load_db():
     if not os.path.exists(DB_FILE):
         return {}
